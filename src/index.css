@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,14 +7,14 @@
 }
 
 body {
-  font-family: "montseratt", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .app {
   background-image: url("./assets/cold-bg.jpg");
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
+  transition: 0.4 ease;
 }
 
 .app.warm {
@@ -24,7 +26,7 @@ main {
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.5)
+    rgba(0, 0, 0, 0.2)
   );
   padding: 25px;
 }
@@ -52,9 +54,51 @@ main {
 
   color: #313131;
   font-size: 20px;
+
   transition: 0.4s ease;
 }
 
 .search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box .location {
+  color: #17294d;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.location-box .date {
+  color: #17294d;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(173, 212, 253, 0.5);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #17294d;
+  font-size: 50px;
+  font-weight: 900;
+
+  text-align: center;
+}
+
+.weather-box .weather {
+  color: #17294d;
+  font-size: 38px;
+  font-weight: 700;
 }
