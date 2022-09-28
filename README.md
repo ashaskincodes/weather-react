@@ -1,3 +1,15 @@
+A simple weather app designed to show current weather in selected location. Currently only styled for mobile.
+
+To-do list -
+
+Add filter option to search bar to allow user to select location after typing a few letters.
+
+Error message if no such location exists (currently just displays blank screen)
+
+Styled for desktop and tablet
+
+Add weather forecasts for next few days
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
